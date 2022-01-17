@@ -1,6 +1,3 @@
-* {
-    box-sizing: border-box;
-}
 
 body {
     display: flex;
@@ -16,19 +13,20 @@ body {
     display: flex;
     justify-content: space-between;    
     align-items: center;
-    padding-right: 24px;
+    padding:  0 200px 100px 200px;
 }
 
 .header h3 {
     font-size: 24px;
     color: #F9FAF8;
-    margin-left: 24px;
 }
 
 .header ul {
     display: flex;
     list-style-type: none;
     gap: 24px;
+    margin: 0;
+    padding:0;
 }
 
 ul a {
@@ -39,6 +37,7 @@ ul a {
 
 .body {
     flex: 1;
+    padding:  0 200px;
 }
 
 .body#one {
@@ -46,12 +45,96 @@ ul a {
     justify-content: center;
     align-items: center;
     gap: 32px;
-}
-
-.body#one img {
+    padding-bottom: 100px;
     
 }
 
-.footer {
+.body#one img {
+    width: 50%;
+    height: auto;
 
+}
+ 
+.body#one .intro {
+    width: 50%;
+    
+}
+
+.intro h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.intro p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 25px;
+}
+
+button a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 500;
+}
+
+.body#two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    padding: 40px 0 100px 0;
+}
+
+.body#two h2 {
+    padding: 50px 0;
+    margin: 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    width: 30%;
+    
+}
+
+.cards div {
+    max-width: 200px;
+    max-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-img {
+    height: 150px;
+    width: auto;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+
+.body#three {
+    background-color: #E5E7EB;
+}
+
+.footer {
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 10px;
 }
