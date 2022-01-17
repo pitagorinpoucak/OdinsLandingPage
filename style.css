@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
     display: flex;
     flex-direction: column;
+    font-family: Roboto, sans-serif;
 }
 
 
@@ -129,6 +131,55 @@ button a {
 
 .body#three {
     background-color: #E5E7EB;
+    padding: 100px 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body#three p {
+    width: 75%;
+        
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    margin: 0;
+}
+
+.author {
+    text-align: right;
+    font-weight: 700;
+}
+
+.body#four {
+    background-color: #3882f6;
+    margin: 100px 250px 100px 250px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 24px 0 24px 0;
+}
+
+.call h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.call p {
+    margin: 0;
+    padding 0;
+    color: #F9FAF8;
+}
+
+.body#four button {
+    border: 2px solid #F9FAF8;
+    box-sizing: border-box;
 }
 
 .footer {
